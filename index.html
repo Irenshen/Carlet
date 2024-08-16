@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+
+<head>
+    <title>Carlet Car outlet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="description">
+
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo/logo-min.svg">
+    <link rel="shortcut icon" href="assets/images/logo/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/style-min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <div class="container">
+                <div class="header__inner d-flex jc-sb al-center">
+                    <a href="/" class="header__logo">
+                        <img src="assets/images/logo/logo.svg" alt="CARLET" title="">
+                    </a>
+                    <div class="header__right d-flex al-center">
+                        <div class="select-wrap">
+                            <select name="" class="d-none" id="hidden-select">
+                                <option value="RUS">RUS</option>
+                                <option value="ENG">ENG</option>
+                                <option value="LT">LT</option>
+                                <option value="LV">LV</option>
+                                <option value="UA">UA</option>
+                                <option value="PL">PL</option>
+                            </select>
+                            <div class="custom-select-wrapper">
+                                <div class="custom-select">
+                                    <div class="custom-select-trigger">
+                                        <span>RUS</span>
+                                        <i class="arrow"></i>
+                                    </div>
+                                    <div class="custom-options">
+                                        <a  href="/en/" class="custom-option" data-value="ENG">ENG</a>
+                                        <a  href="/lt/" class="custom-option" data-value="LT">LT</a>
+                                        <a  href="/lv/" class="custom-option" data-value="LV">LV</a>
+                                        <a  href="/ua/" class="custom-option" data-value="UA">UA</a>
+                                        <a  href="/pl/" class="custom-option" data-value="PL">PL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social__network-wrap d-flex al-center">
+                            <a rel="nofollow" target="_blank" href="" class="social__item social__item--viber viber">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="42" height="42" rx="21" fill="black" class="svg-background" />
+                                    <path
+                                        d="M27.5666 10.0232C23.5645 9.25894 19.4085 9.25894 15.4064 10.0232C13.6363 10.4054 11.4043 12.5453 11.0195 14.2268C10.3268 17.5132 10.3268 20.876 11.0195 24.1624C11.4813 25.8438 13.7132 27.9838 15.4064 28.3659C15.4834 28.3659 15.5603 28.4423 15.5603 28.5188V33.3337C15.5603 33.563 15.8682 33.7159 16.0221 33.4866L18.331 31.1173C18.331 31.1173 20.1781 29.2066 20.486 28.9009C20.486 28.9009 20.563 28.8245 20.6399 28.8245C22.9488 28.9009 25.3347 28.6716 27.6436 28.2895C29.4137 27.9074 31.6457 25.7674 32.0305 24.086C32.7232 20.7996 32.7232 17.4367 32.0305 14.1503C31.5687 12.5453 29.3368 10.4054 27.5666 10.0232ZM27.6436 24.3917C27.2588 25.1559 26.797 25.7674 26.0274 26.1495C25.7965 26.2259 25.5656 26.3024 25.3347 26.3788C25.0268 26.3024 24.7959 26.2259 24.5651 26.1495C22.1022 25.1559 19.7933 23.7802 17.9462 21.7931C16.9457 20.6467 16.0991 19.3474 15.4064 17.9717C15.0986 17.2839 14.7907 16.6724 14.5598 15.9846C14.3289 15.3732 14.7137 14.7618 15.0986 14.3032C15.4834 13.8446 15.9452 13.5389 16.4839 13.3096C16.8687 13.0803 17.2535 13.2332 17.5614 13.5389C18.1771 14.3032 18.7928 15.0675 19.2546 15.9082C19.5624 16.4432 19.4855 17.0546 18.9467 17.4367C18.7928 17.5132 18.7158 17.5896 18.5619 17.7424C18.4849 17.8189 18.331 17.8953 18.2541 18.0482C18.1001 18.2774 18.1001 18.5067 18.1771 18.736C18.7928 20.4938 19.9472 21.8695 21.7174 22.6338C22.0253 22.7867 22.2562 22.8631 22.641 22.8631C23.1797 22.7867 23.4106 22.1753 23.7954 21.8695C24.1802 21.5638 24.642 21.5638 25.1038 21.7931C25.4886 22.0224 25.8734 22.3281 26.3352 22.6338C26.72 22.9395 27.1048 23.1688 27.4897 23.4745C27.7205 23.6274 27.7975 24.0095 27.6436 24.3917ZM24.4111 18.6596C24.2572 18.6596 24.3342 18.6596 24.4111 18.6596C24.1033 18.6596 24.0263 18.5067 23.9493 18.2774C23.9493 18.1246 23.9493 17.8953 23.8724 17.7424C23.7954 17.4367 23.6415 17.131 23.3336 16.9017C23.1797 16.8253 23.0258 16.7489 22.8719 16.6724C22.641 16.596 22.487 16.596 22.2562 16.596C22.0253 16.5196 21.9483 16.3667 21.9483 16.1375C21.9483 15.9846 22.1792 15.8317 22.3331 15.8317C23.5645 15.9082 24.4881 16.596 24.642 18.0482C24.642 18.1246 24.642 18.2774 24.642 18.3539C24.642 18.5067 24.565 18.6596 24.4111 18.6596ZM23.6415 15.2967C23.2567 15.1439 22.8719 14.991 22.4101 14.9146C22.2561 14.9146 22.0253 14.8382 21.8713 14.8382C21.6404 14.8382 21.4865 14.6853 21.5635 14.456C21.5635 14.2268 21.7174 14.0739 21.9483 14.1503C22.7179 14.2268 23.4106 14.3796 24.1033 14.6853C25.4886 15.3732 26.2582 16.5196 26.4891 18.0482C26.4891 18.1246 26.4891 18.201 26.4891 18.2774C26.4891 18.4303 26.4891 18.5831 26.4891 18.8124C26.4891 18.8889 26.4891 18.9653 26.4891 19.0417C26.4122 19.3474 25.8734 19.4239 25.7965 19.0417C25.7965 18.9653 25.7195 18.8124 25.7195 18.736C25.7195 18.0482 25.5656 17.3603 25.2577 16.7489C24.7959 16.061 24.2572 15.6025 23.6415 15.2967ZM27.7975 19.8824C27.5666 19.8824 27.4127 19.6531 27.4127 19.4239C27.4127 18.9653 27.3357 18.5067 27.2588 18.0482C26.9509 15.6025 24.9499 13.6153 22.564 13.2332C22.1792 13.1568 21.7944 13.1568 21.4865 13.0803C21.2556 13.0803 20.9478 13.0803 20.8708 12.7746C20.7938 12.5453 21.0247 12.3161 21.2556 12.3161C21.3326 12.3161 21.4096 12.3161 21.4096 12.3161C21.5635 12.3161 24.5651 12.3925 21.4096 12.3161C24.642 12.3925 27.3357 14.5325 27.8745 17.7424C27.9514 18.2774 28.0284 18.8124 28.0284 19.4239C28.1823 19.6531 28.0284 19.8824 27.7975 19.8824Z"
+                                        fill="white" class="svg-icon" />
+                                </svg>
+                            </a>
+                            <a rel="nofollow" target="_blank" href="" class="social__item social__item--whatsapp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="42" viewBox="0 0 41 42"
+                                    fill="none">
+                                    <rect width="41" height="42" rx="20.5" fill="black" class="svg-background" />
+                                    <path
+                                        d="M28.625 12.6656C26.6 10.5984 23.9 9.45001 21.05 9.45001C15.125 9.45001 10.325 14.35 10.325 20.3984C10.325 22.3125 10.85 24.2266 11.75 25.8344L10.25 31.5L15.95 29.9688C17.525 30.8109 19.25 31.2703 21.05 31.2703C26.975 31.2703 31.775 26.3703 31.775 20.3219C31.7 17.4891 30.65 14.7328 28.625 12.6656ZM26.225 24.3031C26 24.9156 24.95 25.5281 24.425 25.6047C23.975 25.6813 23.375 25.6813 22.775 25.5281C22.4 25.375 21.875 25.2219 21.275 24.9156C18.575 23.7672 16.85 21.0109 16.7 20.7813C16.55 20.6281 15.575 19.3266 15.575 17.9484C15.575 16.5703 16.25 15.9578 16.475 15.6516C16.7 15.3453 17 15.3453 17.225 15.3453C17.375 15.3453 17.6 15.3453 17.75 15.3453C17.9 15.3453 18.125 15.2688 18.35 15.8047C18.575 16.3406 19.1 17.7188 19.175 17.7953C19.25 17.9484 19.25 18.1016 19.175 18.2547C19.1 18.4078 19.025 18.5609 18.875 18.7141C18.725 18.8672 18.575 19.0969 18.5 19.1734C18.35 19.3266 18.2 19.4797 18.35 19.7094C18.5 20.0156 19.025 20.8578 19.85 21.6234C20.9 22.5422 21.725 22.8485 22.025 23.0016C22.325 23.1547 22.475 23.0781 22.625 22.925C22.775 22.7719 23.3 22.1594 23.45 21.8531C23.6 21.5469 23.825 21.6234 24.05 21.7C24.275 21.7766 25.625 22.4656 25.85 22.6188C26.15 22.7719 26.3 22.8484 26.375 22.925C26.45 23.1547 26.45 23.6906 26.225 24.3031Z"
+                                        fill="white" class="svg-icon" />
+                                </svg>
+                            </a>
+                            <a rel="nofollow" target="_blank" href="https://m.sitehelp.me/telegram?siteId=avfbyusdyaq7tpeacfdxdbtbez62bwo9&clientId=xxkKygpErWHNLzmm7NIMZ5E37MszdZO1&url=https%3A%2F%2Ft.me%2F%2BZONd3jZl1es5Mzhi" class="social__item social__item--telegram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"
+                                    fill="none">
+                                    <rect width="42" height="42" rx="21" fill="black" class="svg-background" />
+                                    <path
+                                        d="M29.4 13.2323L26.2443 29.7069C26.2443 29.7069 25.8027 30.8491 24.5898 30.3013L17.3088 24.5202L17.275 24.5032C18.2585 23.5887 25.885 16.4878 26.2183 16.1659C26.7343 15.6674 26.4139 15.3707 25.8148 15.7472L14.5496 23.1556L10.2035 21.6413C10.2035 21.6413 9.51952 21.3894 9.45372 20.8416C9.38706 20.2929 10.226 19.9961 10.226 19.9961L27.9437 12.7984C27.9437 12.7984 29.4 12.1358 29.4 13.2323Z"
+                                        fill="white" class="svg-icon" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main" class="main">
+        <section class="banner-section">
+            <div class="banner">
+                <div class="banner-left">
+                    <div class="container rel">
+                        <div class="banner__container" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <h1 class="banner-title title">БЫСТРАЯ ПОКУПКА АВТО СО СКЛАДА В<br> КЛАЙПЕДE</h1>
+                            <div class="banner-subtitle subtitle">ПОКУПВЙТЕ АВТО<br> БЫСТРО С НАШИМ БОТОМ</div>
+                            <div class="social__network-wrap d-flex al-center">
+                                <a rel="nofollow" target="_blank" href="https://m.sitehelp.me/telegram?siteId=avfbyusdyaq7tpeacfdxdbtbez62bwo9&clientId=xxkKygpErWHNLzmm7NIMZ5E37MszdZO1&url=https%3A%2F%2Ft.me%2F%2BZONd3jZl1es5Mzhi" class="social__item social__item--telegram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42"
+                                        fill="none">
+                                        <rect width="42" height="42" rx="21" fill="#fff" class="svg-background" />
+                                        <path
+                                            d="M29.4 13.2323L26.2443 29.7069C26.2443 29.7069 25.8027 30.8491 24.5898 30.3013L17.3088 24.5202L17.275 24.5032C18.2585 23.5887 25.885 16.4878 26.2183 16.1659C26.7343 15.6674 26.4139 15.3707 25.8148 15.7472L14.5496 23.1556L10.2035 21.6413C10.2035 21.6413 9.51952 21.3894 9.45372 20.8416C9.38706 20.2929 10.226 19.9961 10.226 19.9961L27.9437 12.7984C27.9437 12.7984 29.4 12.1358 29.4 13.2323Z"
+                                            fill="#000" class="svg-icon" />
+                                    </svg>
+                                </a>
+                                <a rel="nofollow" target="_blank" href="" class="social__item social__item--whatsapp">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="42" viewBox="0 0 41 42"
+                                        fill="none">
+                                        <rect width="41" height="42" rx="20.5" fill="#fff" class="svg-background" />
+                                        <path
+                                            d="M28.625 12.6656C26.6 10.5984 23.9 9.45001 21.05 9.45001C15.125 9.45001 10.325 14.35 10.325 20.3984C10.325 22.3125 10.85 24.2266 11.75 25.8344L10.25 31.5L15.95 29.9688C17.525 30.8109 19.25 31.2703 21.05 31.2703C26.975 31.2703 31.775 26.3703 31.775 20.3219C31.7 17.4891 30.65 14.7328 28.625 12.6656ZM26.225 24.3031C26 24.9156 24.95 25.5281 24.425 25.6047C23.975 25.6813 23.375 25.6813 22.775 25.5281C22.4 25.375 21.875 25.2219 21.275 24.9156C18.575 23.7672 16.85 21.0109 16.7 20.7813C16.55 20.6281 15.575 19.3266 15.575 17.9484C15.575 16.5703 16.25 15.9578 16.475 15.6516C16.7 15.3453 17 15.3453 17.225 15.3453C17.375 15.3453 17.6 15.3453 17.75 15.3453C17.9 15.3453 18.125 15.2688 18.35 15.8047C18.575 16.3406 19.1 17.7188 19.175 17.7953C19.25 17.9484 19.25 18.1016 19.175 18.2547C19.1 18.4078 19.025 18.5609 18.875 18.7141C18.725 18.8672 18.575 19.0969 18.5 19.1734C18.35 19.3266 18.2 19.4797 18.35 19.7094C18.5 20.0156 19.025 20.8578 19.85 21.6234C20.9 22.5422 21.725 22.8485 22.025 23.0016C22.325 23.1547 22.475 23.0781 22.625 22.925C22.775 22.7719 23.3 22.1594 23.45 21.8531C23.6 21.5469 23.825 21.6234 24.05 21.7C24.275 21.7766 25.625 22.4656 25.85 22.6188C26.15 22.7719 26.3 22.8484 26.375 22.925C26.45 23.1547 26.45 23.6906 26.225 24.3031Z"
+                                            fill="#000" class="svg-icon" />
+                                    </svg>
+                                </a>
+                                <a rel="nofollow" target="_blank" href="" class="social__item social__item--viber viber">
+                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="42" height="42" rx="21" fill="#fff" class="svg-background" />
+                                        <path
+                                            d="M27.5666 10.0232C23.5645 9.25894 19.4085 9.25894 15.4064 10.0232C13.6363 10.4054 11.4043 12.5453 11.0195 14.2268C10.3268 17.5132 10.3268 20.876 11.0195 24.1624C11.4813 25.8438 13.7132 27.9838 15.4064 28.3659C15.4834 28.3659 15.5603 28.4423 15.5603 28.5188V33.3337C15.5603 33.563 15.8682 33.7159 16.0221 33.4866L18.331 31.1173C18.331 31.1173 20.1781 29.2066 20.486 28.9009C20.486 28.9009 20.563 28.8245 20.6399 28.8245C22.9488 28.9009 25.3347 28.6716 27.6436 28.2895C29.4137 27.9074 31.6457 25.7674 32.0305 24.086C32.7232 20.7996 32.7232 17.4367 32.0305 14.1503C31.5687 12.5453 29.3368 10.4054 27.5666 10.0232ZM27.6436 24.3917C27.2588 25.1559 26.797 25.7674 26.0274 26.1495C25.7965 26.2259 25.5656 26.3024 25.3347 26.3788C25.0268 26.3024 24.7959 26.2259 24.5651 26.1495C22.1022 25.1559 19.7933 23.7802 17.9462 21.7931C16.9457 20.6467 16.0991 19.3474 15.4064 17.9717C15.0986 17.2839 14.7907 16.6724 14.5598 15.9846C14.3289 15.3732 14.7137 14.7618 15.0986 14.3032C15.4834 13.8446 15.9452 13.5389 16.4839 13.3096C16.8687 13.0803 17.2535 13.2332 17.5614 13.5389C18.1771 14.3032 18.7928 15.0675 19.2546 15.9082C19.5624 16.4432 19.4855 17.0546 18.9467 17.4367C18.7928 17.5132 18.7158 17.5896 18.5619 17.7424C18.4849 17.8189 18.331 17.8953 18.2541 18.0482C18.1001 18.2774 18.1001 18.5067 18.1771 18.736C18.7928 20.4938 19.9472 21.8695 21.7174 22.6338C22.0253 22.7867 22.2562 22.8631 22.641 22.8631C23.1797 22.7867 23.4106 22.1753 23.7954 21.8695C24.1802 21.5638 24.642 21.5638 25.1038 21.7931C25.4886 22.0224 25.8734 22.3281 26.3352 22.6338C26.72 22.9395 27.1048 23.1688 27.4897 23.4745C27.7205 23.6274 27.7975 24.0095 27.6436 24.3917ZM24.4111 18.6596C24.2572 18.6596 24.3342 18.6596 24.4111 18.6596C24.1033 18.6596 24.0263 18.5067 23.9493 18.2774C23.9493 18.1246 23.9493 17.8953 23.8724 17.7424C23.7954 17.4367 23.6415 17.131 23.3336 16.9017C23.1797 16.8253 23.0258 16.7489 22.8719 16.6724C22.641 16.596 22.487 16.596 22.2562 16.596C22.0253 16.5196 21.9483 16.3667 21.9483 16.1375C21.9483 15.9846 22.1792 15.8317 22.3331 15.8317C23.5645 15.9082 24.4881 16.596 24.642 18.0482C24.642 18.1246 24.642 18.2774 24.642 18.3539C24.642 18.5067 24.565 18.6596 24.4111 18.6596ZM23.6415 15.2967C23.2567 15.1439 22.8719 14.991 22.4101 14.9146C22.2561 14.9146 22.0253 14.8382 21.8713 14.8382C21.6404 14.8382 21.4865 14.6853 21.5635 14.456C21.5635 14.2268 21.7174 14.0739 21.9483 14.1503C22.7179 14.2268 23.4106 14.3796 24.1033 14.6853C25.4886 15.3732 26.2582 16.5196 26.4891 18.0482C26.4891 18.1246 26.4891 18.201 26.4891 18.2774C26.4891 18.4303 26.4891 18.5831 26.4891 18.8124C26.4891 18.8889 26.4891 18.9653 26.4891 19.0417C26.4122 19.3474 25.8734 19.4239 25.7965 19.0417C25.7965 18.9653 25.7195 18.8124 25.7195 18.736C25.7195 18.0482 25.5656 17.3603 25.2577 16.7489C24.7959 16.061 24.2572 15.6025 23.6415 15.2967ZM27.7975 19.8824C27.5666 19.8824 27.4127 19.6531 27.4127 19.4239C27.4127 18.9653 27.3357 18.5067 27.2588 18.0482C26.9509 15.6025 24.9499 13.6153 22.564 13.2332C22.1792 13.1568 21.7944 13.1568 21.4865 13.0803C21.2556 13.0803 20.9478 13.0803 20.8708 12.7746C20.7938 12.5453 21.0247 12.3161 21.2556 12.3161C21.3326 12.3161 21.4096 12.3161 21.4096 12.3161C21.5635 12.3161 24.5651 12.3925 21.4096 12.3161C24.642 12.3925 27.3357 14.5325 27.8745 17.7424C27.9514 18.2774 28.0284 18.8124 28.0284 19.4239C28.1823 19.6531 28.0284 19.8824 27.7975 19.8824Z"
+                                            fill="#000" class="svg-icon" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <img src="assets/images/bmw.png" alt="" data-aos="fade-left" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                </div>
+            </div>
+        </section>
+
+        <section class="about rel">
+            <div class="about-inner d-flex jc-sb al-center">
+                <div class="container">
+                    <div class="about__img-wrap" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <img src="assets/images/container.png" alt="Container">
+                    </div>
+                    <div class="about-content" data-aos="fade-left" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <h2 class="title">О нас</h2>
+                        <div class="text">
+                            Наш сервис позволяет официально купить автомобиль из США быстрее в 3
+                            раза! Автомобили уже прибыли на склад в Литве, Вам нужно только
+                            выбрать подходящий Вам авто и сообщить своему менеджеру.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services-inner d-flex jc-sb al-center">
+                    <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="150">
+                        <div class="card-image-wrap">
+                            <img src="assets/images/card1.png" alt="Детализация повреждения">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Детализация повреждения</div>
+                            <div class="text-card">
+                                Для более подробного изучения авто мы предоставляем более 40
+                                фотографий лота, а также видеообзор авто.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="250">
+                        <div class="card-image-wrap">
+                            <img src="assets/images/card2.png" alt="Фиксированная цена">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Фиксированная цена</div>
+
+                            <div class="text-card">
+                                Мы указываем только конечную стоимость с учетом всех расходов до
+                                Литвы, вам остается доставку до вашего места назначения и оплатить
+                                растаможку.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="350">
+                        <div class="card-image-wrap">
+                            <img src="assets/images/card3.png" alt="Безопасность сделки">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Безопасность сделки</div>
+
+                            <div class="text-card">
+                                Все авто продаются официально и принадлежат польской компании. Для
+                                совершения сделки мы выставляем инвойс, который оплачивается в
+                                банке.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="450">
+                        <div class="card-image-wrap">
+                            <img src="assets/images/card4.png" alt="Модерация">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Модерация</div>
+
+                            <div class="text-card">
+                                Каждый лот проходит модерацию специалистом для оценки качества
+                                лота и подлинности информации.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="container">
+                <div class="steps-inner">
+                    <h2 class="title">Этапы покупки авто через CARLET</h2>
+                    <div class="mySwiper-wrapper rel">
+                        <div class="swiper-container mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide steps-item d-flex jc-sb al-center">
+                                    <div class="steps-item-left">
+                                        <div class="steps-item-left__inner">
+                                            <div class="step-item__num">1.</div>
+                                            <div class="step-item__title">
+                                                Выбор авто
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step-item__text text">
+                                        Вы выбираете понравившейся авто, затем мы предоставим видео и дополнительные
+                                        фото автомобиля. Если у вас остались вопросы по автомобилю, то вы можете
+                                        обратиться к вашему менеджеру
+                                    </div>
+                                </div>
+                                <div class="swiper-slide steps-item d-flex jc-sb al-center">
+                                    <div class="steps-item-left">
+                                        <div class="steps-item-left__inner">
+                                            <div class="step-item__num">2.</div>
+                                            <div class="step-item__title">
+                                                Покупка
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step-item__text text">
+                                        Для совершения сделки вам будет выставлен инвойс, который нужно оплатить в
+                                        банке. После получения денег на расчетный счет ваш персональный менеджер
+                                        свяжется с вами.
+                                    </div>
+                                </div>
+                                <div class="swiper-slide steps-item d-flex jc-sb al-center">
+                                    <div class="steps-item-left">
+                                        <div class="steps-item-left__inner">
+                                            <div class="step-item__num">3.</div>
+                                            <div class="step-item__title">
+                                                Оформление документов
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step-item__text text">
+                                        После получения оплаты оформляются документы на получение вами автомобиля. Все,
+                                        что вам останется сделать - отправить своего перевозчика для доставки вашего
+                                        авто.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-networks">
+            <div class="container">
+                <div class="social-inner d-flex jc-sb">
+                    <div class="scroll-container visible_mobile">
+                        <div class="scroll-text">
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                        </div>
+                    </div>
+                    <div class="scroll-container black visible_mobile">
+                        <div class="scroll-text">
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                        </div>
+                    </div>
+                    <div class="social-networks-left rel">
+                        <img src="assets/images/tel.png" alt="">
+                        <img src="assets/images/shadow.png" alt="" class="shadow-tel">
+                        <img class="social-networks-link social-networks-tg" src="assets/images/icons/tg.png" alt="">
+                        <img class="social-networks-link social-networks-viber viber" src="assets/images/icons/viber.png"
+                            alt="">
+                        <img src="assets/images/shadow-viber.png" alt="" class="shadow-viber viber">
+                        <img class="social-networks-link social-networks-whatsapp"
+                            src="assets/images/icons/whatsapp.png" alt="">
+                        <img src="assets/images/shadow-whatsapp.png" alt="" class="shadow-whatsapp">
+                        <div class="social-networks-sms">
+                            Переходите в наш бот в удобном для Вас мессенджере, покупайте авто выгодно и быстро
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
+                    <div class="social-networks-right rel">
+                        <div class="scroll-container hidden_mobile">
+                            <div class="scroll-text">
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            </div>
+                        </div>
+                        <div class="scroll-container hidden_mobile black">
+                            <div class="scroll-text">
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                                <span>подпишись подпишись подпишись подпишись подпишись подпишись </span>
+                            </div>
+                        </div>
+                        <div class="btn-wrap d-flex">
+                            <a href="https://m.sitehelp.me/telegram?siteId=avfbyusdyaq7tpeacfdxdbtbez62bwo9&clientId=xxkKygpErWHNLzmm7NIMZ5E37MszdZO1&url=https%3A%2F%2Ft.me%2F%2BZONd3jZl1es5Mzhi" class="btn-social-networks">
+                                ПЕРЕЙТИ В TELEGRAM
+                            </a>
+                            <a href="" class="btn-social-networks">
+                                ПЕРЕЙТИ В WHATSAPP
+                            </a>
+                            <a href="" class="btn-social-networks viber">
+                                ПЕРЕЙТИ В VIBER
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommended-cars">
+            <div class="container">
+                <div class="recommended-inner al-center" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="cardsCarSwiper-wrapper">
+                        <div class="swiper-container cardsCarSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide cars-item">
+                                    <div class="cars-item-img-wrap">
+                                        <img src="assets/images/audi.png" alt="">
+                                    </div>
+                                    <div class="cars__text-wrap">
+                                        <div class="cars__title">
+                                            Название
+                                        </div>
+                                        <div class="cars__price">
+                                            12$
+                                        </div>
+                                        <div class="cars__description">
+                                            Описание описание описание описание описание
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cars-item">
+                                    <div class="cars-item-img-wrap">
+                                        <img src="assets/images/bmw-x.png" alt="">
+                                    </div>
+                                    <div class="cars__text-wrap">
+                                        <div class="cars__title">
+                                            Название
+                                        </div>
+                                        <div class="cars__price">
+                                            $
+                                        </div>
+                                        <div class="cars__description">
+                                            Описание описание описание описание описание
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cars-item">
+                                    <div class="cars-item-img-wrap">
+                                        <img src="assets/images/biyovik.png" alt="">
+                                    </div>
+                                    <div class="cars__text-wrap">
+                                        <div class="cars__title">
+                                            Kia Stinger
+                                        </div>
+                                        <div class="cars__price">
+                                            $
+                                        </div>
+                                        <div class="cars__description">
+                                            Описание описание описание описание описание
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="footer__inner d-flex al-center jc-center">
+                    <a href="/" class="footer__logo">
+                        <img src="assets/images/logo/logo.svg" alt="CARLET" title="" class="logo-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="libs/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
